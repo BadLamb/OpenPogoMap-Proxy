@@ -79,7 +79,6 @@ func wsHandler(w http.ResponseWriter, r *http.Request) {
 
 	defer conn.Close()
 
-
 	var new_client = NewClient(conn, exit_hub)
 	log.Info("New client " + string(new_client.Id))
 	exit_hub.Add(new_client)
