@@ -1,6 +1,6 @@
 # OpenPogoMap-Proxy
 
-This is the proxy server that routes the OpenPokeMap requests to third party servers
+This is the proxy server that routes the OpenPogoMap requests to third party servers
 
 ## How to run it
 Set your go path and run the following commands
